@@ -1,0 +1,19 @@
+.Social {
+  margin: 3vh 0px !important;
+  display: inline-block;
+  margin-right: 6vw !important;
+  margin-left: 2vw !important;
+}
+
+.Social a {
+    color: white  ;
+}
+
+@media (min-width: 800px) {
+  .Social {
+    margin-right: 2vw !important;
+    margin-left: 0 !important;
+  }
+}
+
+

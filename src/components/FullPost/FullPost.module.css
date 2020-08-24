@@ -1,0 +1,65 @@
+.FullPost {
+    width: 90%;
+    position: relative;
+    margin: 2rem auto;
+    padding: 20px 10px;
+    max-width: 550px;
+}
+
+.FullPost img {
+    padding-right: 20px;
+    width: auto;
+    height: 250px;
+}
+
+.BackLink {
+    padding: 13px 0;
+    color: #333;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 3px;
+    transition: all .2s ease-in-out;
+    text-decoration: none;
+}
+
+.BackLink:hover {
+    background: #333;
+    border: 1px solid #333;
+    color: #fefefe;
+    border-radius: 30px;
+}
+
+.Title {
+    font-size: 32px;
+    text-align: left;
+    font-weight: 700;
+    font-style: italic;
+    font-family: 'Arvo', serif;
+}
+
+.Date {
+    margin-bottom: 32px;
+    color: rgb(153, 153, 153);
+    font-family: 'Arvo', serif;
+}
+
+.Content {
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+}
+
+
+@media (min-width: 600px) {
+
+    .FullPost img {
+        height: auto;
+        width: 550px;
+    }
+
+    .Title {
+        font-size: 48px;
+        margin-bottom: 8px;
+    }
+    
+}

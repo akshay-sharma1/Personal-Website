@@ -1,0 +1,30 @@
+.Projects {
+    font-size: 28px;
+    font-weight: bold;
+    font-family: 'Arvo', 'serif';
+    margin-left: 2.5vh;
+}
+
+.Content {
+    margin: 4vh 0px;
+    display: flex;
+    overflow: scroll;
+}
+
+@media (min-width: 800px) {
+    .Projects {
+        width: 62vw;
+        padding: 4vh 3vw;
+        display: inline-block;
+        padding-left: 33vw;
+        font-size: 36px;
+        max-width: none;
+    }
+
+    .Content {
+        margin: 0;
+        display: inline-block;
+        max-width: none;
+        padding-left: 0;
+    }
+}

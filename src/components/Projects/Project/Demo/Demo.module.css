@@ -1,0 +1,35 @@
+.Demo {
+    margin: 1vh 0px;
+}
+
+.Demo img {
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.Demo img:hover, .Demo img:active {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    filter: brightness(50%);
+}
+
+
+@media (min-width: 800px) {
+    .Demo {
+        flex: 1;
+        margin-right: 80px;
+        cursor: pointer;
+    }
+
+    .Demo img {
+        width: 350px;
+        height: auto;
+    }
+
+    .Demo img:hover {
+      transform: scale(1.02);
+      filter: none;
+      transition: 0.3s ease-in-out;
+    }
+}

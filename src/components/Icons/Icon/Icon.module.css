@@ -1,0 +1,14 @@
+.icon a {
+  color: #fff;
+  font-weight: bold;
+}
+
+.icon a:hover {
+    text-decoration: underline;
+}
+
+.awesome {
+  margin-right: 5px;
+}
+
+

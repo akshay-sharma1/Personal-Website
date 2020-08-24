@@ -1,0 +1,57 @@
+.Info {
+    width: 90vw;
+    padding: 4vh 5vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-size: cover !important;
+    background-repeat: no-repeat;
+    color: #fff !important;
+    position: relative;
+    font-family: 'Arvo', 'serif';
+    background-image:linear-gradient(
+        90deg,
+        rgba(10, 10, 10, 0.4),
+        rgb(10, 10, 10, 0.4)
+      ),
+      url("https://source.unsplash.com/DbwYNr8RPbg/1600x900");
+}
+
+.Info div {
+  font-weight: bold;
+  margin: 1.5vh 0px;
+}
+
+
+.Username {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.Bio {
+  font-size: 20px;
+}
+
+.IconSocials {
+  font-size: 18px;
+}
+
+
+
+@media (min-width: 800px) {
+    .Info {
+        width: 24vw;
+        padding: 4vh 3vw;
+        height: 92vh;
+        text-align: left;
+        position: fixed;
+    }
+
+    .Username {
+        font-size: 24px;
+    }
+}
+
+

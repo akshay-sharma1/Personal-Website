@@ -1,0 +1,26 @@
+.Tech {
+    font-weight: normal;
+    font-size: 10px;
+    padding-right: 10px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.Highlight {
+    margin-right: 7px;
+    background: rgba(242, 242, 242, 1);
+    padding: 5px 10px;
+} 
+
+@media (min-width: 800px) {
+
+    .Tech {
+        margin: 3vh 0px;
+        font-size: 15px;
+    }
+
+    .Highlight {
+        margin-right: 10px;
+        line-height: 22px;
+    }
+}

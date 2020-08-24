@@ -1,0 +1,82 @@
+.Post {
+    cursor: pointer;
+    position: relative;
+    margin-top: 4vh;
+    margin-left: 3vh;
+    border-radius: 10px;
+    margin-bottom: 3em;
+    transition: all 0.2s ease 0s;
+}
+
+.Post:hover {
+    background-color: rgb(245, 245, 245);
+}
+
+.metaInfo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ReadTime {
+    color: gray;
+    font-size: 15px;
+    padding-right: 15px;
+    font-family: 'Arvo', sans-serif;
+}
+
+.Date {
+    display: inline-block;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 300;
+    margin-right: 10px;
+    border-radius: 3px;
+    padding: 3px 15px;
+}
+
+.Title {
+    font-weight: 700;
+    font-size: 22px;
+    font-style: italic;
+    padding: 0;
+    margin: 30px 0;
+    line-height: 34.5px;
+    font-family: 'Arvo', serif;
+}
+
+.Subtitle {
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.Divider {
+    background-color: rgba(230, 230, 230, 1);
+    height: 1px;
+    border: 0;
+    margin-top: 1em;
+}
+
+
+@media (min-width: 800px) {
+    .Post {
+        margin-top: 0;
+        width: 62vw;
+        padding: 4vh 3vw;
+        display: inline-block;
+        left: 32vw;
+        font-size: 36px;
+        margin-bottom: 0;
+        margin-left: 0;
+    }
+
+    .Title {
+        font-size: 28px;
+    }
+
+    .Subtitle {
+        font-size: 18px;
+    }
+}
