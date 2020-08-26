@@ -1,7 +1,7 @@
 .Project {
-    margin: 2vh 0px;
-    margin-right: 6vh;
-    padding-right: 15px;
+    width: 100%;
+    margin: 3vh 0px;
+    margin-right: 4vh;
     transition: 0.4s ease-in-out;
     transform: scale(1);
 }
@@ -12,20 +12,47 @@
 
 .Description {
     font-size: 15px;
-    word-spacing: 5px;
     font-weight: normal;
     font-family: 'Open Sans', sans-serif;
+}
+
+.ProjectLink {
+    color: black;
+    text-decoration: none;
+}
+
+.ProjectLink p {
+    width: 100%;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 163.19%;
+    color: black;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    border-bottom: 2px solid transparent;
+    margin: 30px 0;
+    transition: border-bottom 0.3s ease 0s;
+}
+
+.ProjectLink span {
+    font-size: 15px;
 }
 
 
 @media (min-width: 800px) {
     .Project {
+        margin: 2vh 0px;
         display: flex;
         padding-right: 0;
     }
     
-    .Title {
-        font-size: 25px;
+    .MainContent {
+        font-size: 20px;    
+    }
+
+    .ProjectLink {
+        display: none;  
     }
     
     .Description {

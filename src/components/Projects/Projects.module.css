@@ -3,13 +3,12 @@
     font-weight: bold;
     font-family: 'Arvo', 'serif';
     margin-left: 2.5vh;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    width: auto;
 }
 
-.Content {
-    margin: 4vh 0px;
-    display: flex;
-    overflow: scroll;
-}
 
 @media (min-width: 800px) {
     .Projects {
@@ -19,12 +18,5 @@
         padding-left: 33vw;
         font-size: 36px;
         max-width: none;
-    }
-
-    .Content {
-        margin: 0;
-        display: inline-block;
-        max-width: none;
-        padding-left: 0;
     }
 }

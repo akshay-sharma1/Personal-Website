@@ -13,6 +13,12 @@ const project = ( props ) => {
                 <p className={styles.Description}>{props.description}</p>
                 <Tech names={props.technologies}/>
             </div>
+            <a className={styles.ProjectLink} href={props.link}>
+                <p>
+                    View Project
+                    <span> > </span>
+                </p>
+            </a>
         </div>
     )
 }
