@@ -8,6 +8,7 @@ const BlogPost = ({ post }) => {
         date={post.data.date}
         postContent={post.content}
         image={post.data.img}
+        color={post.data.dateColor}
         />
     )
 }

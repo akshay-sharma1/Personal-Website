@@ -1,9 +1,9 @@
 .FullPost {
-    width: 90%;
+    width: 100%;
     position: relative;
     margin: 2rem auto;
     padding: 20px 10px;
-    max-width: 550px;
+    max-width: 500px;
 }
 
 .FullPost img {
@@ -39,14 +39,32 @@
 }
 
 .Date {
-    margin-bottom: 32px;
-    color: rgb(153, 153, 153);
-    font-family: 'Arvo', serif;
+    margin-bottom: 30px;
+    display: inline-block;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 300;
+    margin-right: 10px;
+    border-radius: 3px;
+    padding: 3px 15px;
 }
 
 .Content {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
     color: black;
+}
+
+.Thanks {
+    margin-bottom: 0.5rem;
+    font-size: 13px;
+}
+
+.FullPost hr {
+    background-color: rgba(230, 230, 230, 1);
+    height: 1px;
+    border: 0;
+    margin-top: 1em;
 }
 
 
@@ -54,7 +72,7 @@
 
     .FullPost img {
         height: auto;
-        width: 550px;
+        width: 500px;
     }
 
     .Title {
