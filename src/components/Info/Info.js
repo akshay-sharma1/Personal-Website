@@ -14,7 +14,7 @@ class Info extends Component {
         },
         icons : {
             location: 'Philadelphia, PA',
-            Resume: 'https://drive.google.com/file/d/1VPcGWmpvQpAEfqPEtNBKGMPttTf_Qm_c/view?usp=sharing'
+            Resume: 'https://drive.google.com/file/d/10xDMZfSrViuNSfu8xFrNq3tLVV8-XJbF/view?usp=sharing'
         }
     }
 
@@ -23,7 +23,7 @@ class Info extends Component {
             <div className={styles.Info}>
                 <ProfileImg background='background: center;'/>
                 <div className={styles.Username}>Akshay Sharma</div>
-                <div className={styles.Bio}>Sophomore at the University of Pennsylvania</div>
+                <div className={styles.Bio}>Junior at the University of Pennsylvania</div>
                 <div className={styles.IconSocials}>
                     <Icons icons={this.state.icons}/>
                     <Socials socials={this.state.socials} />
